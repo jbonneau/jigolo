@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.rpg.account">
+	<class name="Account" table="ACCOUNT">
+  		<id name="id" column="ID">
+			<generator class="increment"/>
+		</id>
+		<property name="pseudo" column="PSEUDO"/>
+		<property name="password" column="PWD"/>
+		<property name="description" column="SHORT_DESC"/>
+		<property name="initDate" type="timestamp" column="INIT_DATE"/>
+	</class>
+</hibernate-mapping>
