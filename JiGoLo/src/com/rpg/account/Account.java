@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import com.jgoodies.binding.beans.Model;
-import com.rpg.player.GenericPlayer;
+import com.rpg.character.GenericCharacter;
 
 
 /**
@@ -23,7 +23,7 @@ public class Account extends Model {
 	private String description;
 	private Date initDate;
 
-	ArrayList<GenericPlayer> players;
+	ArrayList<GenericCharacter> players;
 
 	/**
 	 * Constructeur pour Hibernate
