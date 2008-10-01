@@ -1,7 +1,7 @@
 /**
  * Créée le 11 août 08
  */
-package com.rpg.player;
+package com.rpg.character;
 
 import java.util.Date;
 
@@ -12,7 +12,7 @@ import com.rpg.stat.PlayerStat;
  * @author LhaaG
  *
  */
-public class StandardPlayer implements GenericPlayer {
+public class StandardCharacter implements GenericCharacter {
 
 	private long id;
 	private long masterId;
@@ -47,7 +47,7 @@ public class StandardPlayer implements GenericPlayer {
 	/**
 	 * Constructeur pour Hibernate
 	 */
-	public StandardPlayer() {}
+	public StandardCharacter() {}
 
 	/**
 	 * Crée un nouveau personnage de jeu vierge
@@ -57,18 +57,18 @@ public class StandardPlayer implements GenericPlayer {
 	 * @param bloodType
 	 * @param raceId
 	 */
-	public StandardPlayer(long masterId, String name, Date birthday, String bloodType, int raceId) {
+	public StandardCharacter(long masterId, String name, Date birthday, String bloodType, int raceId) {
 		this.masterId = masterId;
 		this.name = name;
 		this.birthday = birthday;
 		this.bloodType = bloodType;
 		this.creationDate = new Date();
 
-		this.gold = goldInit;
-		this.level = levelInit;
+		this.gold = GOLD_INIT;
+		this.level = LEVEL_INIT;
 
-		this.skillPoints = skillPointsInit;
-		this.skillPointsTotal = skillPointsInit;
+		this.skillPoints = SKILL_POINTS_INIT;
+		this.skillPointsTotal = SKILL_POINTS_INIT;
 
 		this.statFocus = 0;
 		this.statReading = 0;
@@ -78,10 +78,10 @@ public class StandardPlayer implements GenericPlayer {
 		this.statCreativity = 0;
 		this.statKnowledge = 0;
 		this.statCharming = 0;
-		this.statPointsTotal = statPointsTotalInit;
+		this.statPointsTotal = STAT_POINTS_TOTAL_INIT;
 
-		this.specialSkillPoints = specialSkillPointsInit;
-		this.specialSkillPointsTotal = specialSkillPointsInit;
+		this.specialSkillPoints = SPECIAL_SKILL_POINTS_INIT;
+		this.specialSkillPointsTotal = SPECIAL_SKILL_POINTS_INIT;
 
 		this.xpTotal = 0;
 		this.stat = new PlayerStat(this.id);
@@ -378,4 +378,4 @@ public class StandardPlayer implements GenericPlayer {
 		this.statCharming = statCharming;
 	}
 
-}// class StandardPlayer
+}// class StandardCharacter

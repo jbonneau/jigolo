@@ -9,7 +9,7 @@ package com.rpg.item;
  */
 public interface GenericItem {
 
-	static final String familyDragon = "DRAGON";
-	static final String familyPhenix = "PHENIX";
+	static final String FAMILY_DRAGON = "dragon";
+	static final String FAMILY_PHENIX = "phenix";
 
 }// interface GenericItem

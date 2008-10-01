@@ -9,10 +9,10 @@ package com.rpg.skill;
  */
 public interface GenericSkill {
 
-	static final String FamilyShape = "SHAPE";
-	static final String FamilyTrap = "TRAP";
-	static final String FamilyBoost = "BOOST";
-	static final String FamilyCounter = "COUNTER";
-	static final String FamilyChange = "CHANGE";
+	static final String FAMILY_SHAPE = "shape";
+	static final String FAMILY_TRAP = "trap";
+	static final String FAMILY_BOOST = "boost";
+	static final String FAMILY_COUNTER = "counter";
+	static final String FAMILY_CHANGE = "change";
 
 }// interface GenericSkill
