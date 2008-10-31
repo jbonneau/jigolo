@@ -3,6 +3,8 @@
  */
 package com.go.game;
 
+import javax.swing.tree.DefaultMutableTreeNode;
+
 import com.go.board.StandardBoard;
 import com.go.game.move.Move;
 import com.go.player.GenericPlayer;
@@ -16,12 +18,18 @@ import com.go.rules.StandardRules;
  */
 public class StandardGame implements GenericGame {
 
+	// goban et règles
 	private StandardBoard goban;
 	private GenericRules rules;
+
+	// joueurs
 	private GenericPlayer playerBlack;
 	private GenericPlayer playerWhite;
 
-	private int moveNumber;
+	// coups de la partie
+	private DefaultMutableTreeNode movesTree;
+	private int currentMoveNumber;
+	private int currentVariation;
 
 	/**
 	 * Constructeur vide
@@ -46,21 +54,31 @@ public class StandardGame implements GenericGame {
 	}
 
 	private void init() {
-		this.moveNumber = 0;
+		this.currentVariation = 0;
+		this.currentMoveNumber = 0;
 	}
 
 	public boolean playAt(StandardPlayer player, int hCoord, int vCoord) {
 		if (this.isEmpty(hCoord, vCoord)) {
-			Move movePlayed = new Move(this.moveNumber, player.getColor(), hCoord, vCoord);
-			this.goban.playMoveAt(movePlayed);
-			this.moveNumber++;
+			Move movePlayed = new Move(this.currentVariation, this.currentMoveNumber, player.getColor(), hCoord, vCoord);
+			this.goban.playMove(movePlayed);
+			this.addMove(movePlayed);
+			this.currentMoveNumber++;
 			return true;
 		}
 		else return false;
 	}
 
+	private void addMove(Move move) {
+		if (this.movesTree == null) this.movesTree = new DefaultMutableTreeNode(move);
+		else {
+			DefaultMutableTreeNode child = new DefaultMutableTreeNode(move);
+			this.movesTree.add(child);
+		}
+	}
+
 	private boolean isEmpty(int hCoord, int vCoord) {
-		return this.goban.getGobanAt(this.moveNumber).getIntersectionAt(hCoord, vCoord).isEmpty();
+		return this.goban.getIntersectionAt(hCoord, vCoord).isEmpty();
 	}
 
 }// class StandardGame

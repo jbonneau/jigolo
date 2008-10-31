@@ -12,6 +12,7 @@ import com.go.rules.color.Color;
 public class Move {
 
 	private int number;
+	private int variation;
 	private int horizontalCoord;
 	private int verticalCoord;
 	private boolean passMove;
@@ -19,12 +20,14 @@ public class Move {
 
 	/**
 	 * Un coup dans une partie défini par son numéro, sa couleur et sa position sur le goban
+	 * @param var
 	 * @param number
 	 * @param color
 	 * @param horizontalCoord
 	 * @param verticalCoord
 	 */
-	public Move(int number, Color color, int horizontalCoord, int verticalCoord) {
+	public Move(int var, int number, Color color, int horizontalCoord, int verticalCoord) {
+		this.variation = var;
 		this.number = number;
 		this.color = color;
 		this.horizontalCoord = horizontalCoord;
@@ -34,10 +37,12 @@ public class Move {
 	
 	/**
 	 * Un coup qui "passe"
+	 * @param var
 	 * @param number
 	 * @param color
 	 */
-	public Move(int number, Color color) {
+	public Move(int var, int number, Color color) {
+		this.variation = var;
 		this.number = number;
 		this.color = color;
 		this.horizontalCoord = 0;
@@ -71,6 +76,13 @@ public class Move {
 	 */
 	public int getNumber() {
 		return number;
+	}
+
+	/**
+	 * @return the passMove
+	 */
+	public boolean isPassMove() {
+		return passMove;
 	}
 
 }// class Move
