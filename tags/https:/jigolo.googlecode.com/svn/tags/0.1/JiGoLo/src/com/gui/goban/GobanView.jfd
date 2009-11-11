@@ -1,0 +1,2654 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_07" class="java.beans.XMLDecoder"> 
+ <object class="com.jformdesigner.model.FormModel"> 
+  <void method="setProperty"> 
+   <string>i18n.autoExternalize</string> 
+   <boolean>true</boolean> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.bundlePackage</string> 
+   <string>com.resource</string> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.bundleName</string> 
+   <string>locale</string> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.keyPrefix</string> 
+   <string>GobanView</string> 
+  </void> 
+  <void property="contentType"> 
+   <string>form/swing</string> 
+  </void> 
+  <void property="root"> 
+   <object class="com.jformdesigner.model.FormRoot"> 
+    <void method="add"> 
+     <object class="com.jformdesigner.model.FormContainer"> 
+      <string>javax.swing.JPanel</string> 
+      <object class="com.jformdesigner.model.FormLayoutManager"> 
+       <class>java.awt.GridBagLayout</class> 
+       <void method="setProperty"> 
+        <string>$columnSpecs</string> 
+        <string>0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</string> 
+       </void> 
+       <void method="setProperty"> 
+        <string>$rowSpecs</string> 
+        <string>0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</string> 
+       </void> 
+       <void method="setProperty"> 
+        <string>$hGap</string> 
+        <int>5</int> 
+       </void> 
+       <void method="setProperty"> 
+        <string>$vGap</string> 
+        <int>5</int> 
+       </void> 
+       <void method="setProperty"> 
+        <string>$alignLeft</string> 
+        <boolean>true</boolean> 
+       </void> 
+       <void method="setProperty"> 
+        <string>$alignTop</string> 
+        <boolean>true</boolean> 
+       </void> 
+      </object> 
+      <void property="name"> 
+       <string>this</string> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV1.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV1</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV2.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV2</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV3.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV3</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV4.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV4</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV5.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV5</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV6.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV6</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV7.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV7</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV8.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV8</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseV9.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseV9</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>1</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH9.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH9</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button1.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button1</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button2.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button2</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button3.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button3</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button4.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button4</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button5.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button5</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button6.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button6</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button7.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button7</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button8.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button8</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button9.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button9</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>2</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH8.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH8</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button10.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button10</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button11.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button11</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button12.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button12</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button13.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button13</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button14.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button14</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button15.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button15</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button16.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button16</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button17.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button17</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button18.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button18</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>3</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH7.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH7</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button19.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button19</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button20.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button20</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button21.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button21</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button22.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button22</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button23.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button23</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button24.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button24</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button25.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button25</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button26.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button26</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button27.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button27</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH6.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH6</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button28.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button28</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button29.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button29</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button30.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button30</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button31.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button31</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button32.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button32</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button33.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button33</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button34.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button34</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button35.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button35</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button36.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button36</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>5</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH5.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH5</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button37.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button37</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button38.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button38</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button39.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button39</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button40.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button40</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button41.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button41</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button42.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button42</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button43.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button43</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button44.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button44</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button45.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button45</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>6</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH4.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH4</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button46.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button46</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button47.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button47</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button48.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button48</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button49.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button49</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button50.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button50</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button51.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button51</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button52.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button52</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button53.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button53</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button54.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button54</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>7</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH3.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH3</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button55.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button55</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button56.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button56</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button57.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button57</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button58.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button58</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button59.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button59</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button60.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button60</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button61.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button61</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button62.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button62</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button63.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button63</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH2.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH2</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button64.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button64</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button65.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button65</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button66.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button66</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button67.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button67</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button68.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button68</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button69.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button69</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button70.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button70</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button71.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button71</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button72.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button72</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.caseH1.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>caseH1</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>1</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button73.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button73</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>2</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button74.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button74</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>3</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button75.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button75</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>4</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button76.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button76</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>5</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button77.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button77</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>6</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button78.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button78</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>7</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button79.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button79</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>8</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button80.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button80</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>9</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>GobanView.button81.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>button81</string> 
+        </void> 
+       </object> 
+       <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+        <class>com.jformdesigner.runtime.GridBagConstraintsEx</class> 
+        <void method="setProperty"> 
+         <string>gridx</string> 
+         <int>10</int> 
+        </void> 
+        <void method="setProperty"> 
+         <string>gridy</string> 
+         <int>10</int> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+     <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+      <null/> 
+      <void method="setProperty"> 
+       <string>location</string> 
+       <object class="java.awt.Point"> 
+        <int>0</int> 
+        <int>0</int> 
+       </object> 
+      </void> 
+      <void method="setProperty"> 
+       <string>size</string> 
+       <object class="java.awt.Dimension"> 
+        <int>400</int> 
+        <int>300</int> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 
